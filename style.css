@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin-top: 5%;
+    margin-left: 29vw;
+    border: 5px solid blue;
+    border-radius: 5px;
+    width: 37%;
+    height: 60%;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*padding-left: 20%;*/
+    flex-direction: column;
+    width:65%;
+    height: 80%;
+    padding-right: -12vw;
+
+}
+
+.images p button{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    padding-left: 45%;
+    /*margin-bottom: 15%;*/
+    padding-bottom: 5%;
+}
+
+.images a{
+    color: black;
+    text-decoration: none;
+    padding: 3px;
+    border: 1px solid;
+    border-radius: 3px;
+}

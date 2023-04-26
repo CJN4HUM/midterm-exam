@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order</title>
+    <link rel="stylesheet" href="transact.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="container1">
+        <div class="images">
+            <p>Product Details</p>
+            <img src="Pictures/Dell G5 15 5590 Laptop - ₱52000.00.jpg" alt="img">
+            <p>Dell G5 i5 5590 Laptop</p>
+            <p>₱52000.00</p>
+            <p>Shipping To: Cagayan de Oro City</p>
+            <p>Shipping Fee: ₱50.00</p>
+            <p>Quantity: <span id="quantity">1</span></p>
+            <button onclick="subQuantity()">-</button>
+            <button onclick="addQuantity()">+</button>
+        </div>
+        <div class="container2">
+        <div class="subtotal">
+            <p>Subtotal: <span id="subTotal">₱52000.00</span></p>
+            <p>QTY: <span id="qty">1</span></p>
+            <p>Shipping Fee: <span id="shippingFee">₱50.00</span></p>
+            <p>Total: <span id="total">₱0.00</span></p>
+        </div>
+    </div>
+</body>
+</html>
